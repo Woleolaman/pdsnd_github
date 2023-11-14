@@ -29,9 +29,9 @@ def get_filters():
             print("\n\nThat\'s not a valid input!", "\n", "Ensure you enter the correct city in the options")
             continue
     # Gets user input for month (January, February, ... June).
-    time_filt = input("\n\nAre you filtering data by a specific month, day, or not at all? Enter \"none\" for no time filter. ")
-    time_filt = time_filt.lower()
-    if time_filt == "month":
+    time_filter = input("\n\nAre you filtering data by a specific month, day, or not at all? Enter \"none\" for no time filter. ")
+    time_filter = time_filter.lower()
+    if time_filter == "month":
         months = ['January', 'February', 'March', 'April', 'May', 'June']
         day = "all"
         while True:
@@ -44,7 +44,7 @@ def get_filters():
                 continue
 
 # Gets user input for day of week (all, monday, tuesday, ... sunday).
-    elif time_filt == "day":
+    elif time_filter == "day":
         month = "all"
         day_int = [1,2,3,4,5,6,7]
         while True:
