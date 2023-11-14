@@ -7,7 +7,7 @@ Ihis project was created on **November 2, 2023**.
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This Python code will take in raw input from users to create an interactive experience in the terminal to present descriptive statistics.
 
 ### Files used
 Include the files used
